@@ -1,4 +1,4 @@
-/*function readData() {
+function readData() {
   let div = document.getElementById("jsondata");
   let xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function () {
@@ -19,7 +19,7 @@
   );
   xhttp.send();
 }
-readData();*/
+readData();
 
 function paramaters() {
   var btn = document.getElementById("btn");
